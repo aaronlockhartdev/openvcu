@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "474f8017-6a20-4212-a4d1-1038f3d193b2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 44.45 38.1)
+		(size 24.13 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae0cd99e-b84a-4a8c-87fb-612eb42dfda2")
+		(property "Sheetname" "Realtime MCU"
+			(at 44.45 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rt_mcu.kicad_sch"
+			(at 44.45 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "openvcu"
+				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
