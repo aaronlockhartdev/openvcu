@@ -420,6 +420,10 @@
     [
       "ae0cd99e-b84a-4a8c-87fb-612eb42dfda2",
       "Realtime MCU"
+    ],
+    [
+      "0e0f3168-a2d1-4cc4-babd-f9e64b91c1ea",
+      "Ignition Driver"
     ]
   ],
   "text_variables": {}
