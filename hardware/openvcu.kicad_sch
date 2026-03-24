@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0e0f3168-a2d1-4cc4-babd-f9e64b91c1ea")
-		(property "Sheetname" "Ignition Driver"
+		(property "Sheetname" "Ignition Drivers"
 			(at 106.045 36.7534 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ignition_driver.kicad_sch"
+		(property "Sheetfile" "ignition_drivers.kicad_sch"
 			(at 106.045 65.9896 0)
 			(effects
 				(font
