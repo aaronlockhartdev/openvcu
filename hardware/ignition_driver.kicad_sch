@@ -211,7 +211,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA4376"
+		(symbol "Amplifier_Operational:TSV914"
 			(pin_names
 				(offset 0.127)
 			)
@@ -231,7 +231,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA4376"
+			(property "Value" "TSV914"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -253,7 +253,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
+			(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
 				(at 1.27 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -264,7 +264,7 @@
 					)
 				)
 			)
-			(property "Description" "Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5"
+			(property "Description" "Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -307,7 +307,7 @@
 					)
 				)
 			)
-			(symbol "OPA4376_1_1"
+			(symbol "TSV914_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(symbol "OPA4376_2_1"
+			(symbol "TSV914_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -443,7 +443,7 @@
 					)
 				)
 			)
-			(symbol "OPA4376_3_1"
+			(symbol "TSV914_3_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -511,7 +511,7 @@
 					)
 				)
 			)
-			(symbol "OPA4376_4_1"
+			(symbol "TSV914_4_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -579,7 +579,7 @@
 					)
 				)
 			)
-			(symbol "OPA4376_5_1"
+			(symbol "TSV914_5_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -3446,122 +3446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA4376")
-		(at 92.71 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "978ddeea-7360-4f7b-8b99-254c15e4ebe3")
-		(property "Reference" "U26"
-			(at 92.71 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA4376"
-			(at 92.71 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 91.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5"
-			(at 92.71 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "aeaba476-6315-4b7e-ab97-43ce3dd698eb")
-		)
-		(pin "5"
-			(uuid "390ef03e-cae8-4adb-b652-6ebecbb1e7e9")
-		)
-		(pin "7"
-			(uuid "8d0db7c7-66ca-4eb6-be26-2646ed89bb3d")
-		)
-		(pin "9"
-			(uuid "e9fcf5fe-ff57-4c0e-bc3b-07d88988eee3")
-		)
-		(pin "14"
-			(uuid "38cbcc5f-39dc-4610-9401-0edbccf3646e")
-		)
-		(pin "8"
-			(uuid "e87d3637-764e-41e3-b7e2-4d461c76a439")
-		)
-		(pin "12"
-			(uuid "7c902d58-1b4c-4013-a5e1-bc192ef1ab17")
-		)
-		(pin "1"
-			(uuid "9b17802a-e2c2-4eb3-813d-00f68fc8a8ce")
-		)
-		(pin "2"
-			(uuid "5e812c5c-d03b-4385-9db5-b9659a17222e")
-		)
-		(pin "3"
-			(uuid "180276b0-1e7f-41dc-b0bb-54b43c8787d0")
-		)
-		(pin "10"
-			(uuid "04d1ab83-b12b-41e7-84b7-470381f1c8b3")
-		)
-		(pin "13"
-			(uuid "918633a6-fee0-478e-92c3-2970cbeb0aac")
-		)
-		(pin "11"
-			(uuid "0432b40c-7502-4254-a5af-5e339809a9f8")
-		)
-		(pin "4"
-			(uuid "ed0c29d6-0d34-4c1d-9776-7bb7b1b900ed")
-		)
-		(instances
-			(project "openvcu"
-				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2/0e0f3168-a2d1-4cc4-babd-f9e64b91c1ea/6cc00cbf-89c2-4b1d-8fa8-5e3131255cb0"
-					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 96.52 59.69 90)
 		(unit 1)
@@ -3965,6 +3849,122 @@
 			(project "openvcu"
 				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2/0e0f3168-a2d1-4cc4-babd-f9e64b91c1ea/6cc00cbf-89c2-4b1d-8fa8-5e3131255cb0"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TSV914")
+		(at 92.71 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9ee4f98-4f37-4234-9469-ea0800a318d4")
+		(property "Reference" "U13"
+			(at 92.71 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSV914"
+			(at 92.71 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/tsv911.pdf"
+			(at 91.44 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14"
+			(at 92.71 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "c443c121-76b1-42a6-953d-a46a07dd9aff")
+		)
+		(pin "13"
+			(uuid "13128acc-eb08-4c69-8496-28aa62aa7bfe")
+		)
+		(pin "9"
+			(uuid "e0e3d4c3-7bcd-48d2-8a7b-e17b43fef5a5")
+		)
+		(pin "12"
+			(uuid "0277f62c-ec71-4ba2-bb32-022884dd61ac")
+		)
+		(pin "3"
+			(uuid "c687db12-3da4-46c5-811f-a8b885a83eec")
+		)
+		(pin "6"
+			(uuid "831d86cf-37c9-43d2-a001-213c6653f8d6")
+		)
+		(pin "5"
+			(uuid "66647561-9022-4146-8c70-333e156ca58c")
+		)
+		(pin "10"
+			(uuid "65de9a5a-e743-468e-a8b5-a71862578473")
+		)
+		(pin "1"
+			(uuid "b0e8508e-b170-40b1-aa27-7256351f0f2b")
+		)
+		(pin "2"
+			(uuid "1b2347c5-0288-4bbe-a3de-c6282bc45a6b")
+		)
+		(pin "8"
+			(uuid "966c64d8-2dbc-4686-96f8-42c990932130")
+		)
+		(pin "4"
+			(uuid "28be5445-1b01-4e5b-843c-49e657a523ca")
+		)
+		(pin "11"
+			(uuid "778a1cbc-1d06-45be-97cf-7c894cb85dda")
+		)
+		(pin "14"
+			(uuid "0cad17ae-2c12-4f49-a6ce-8df617a8591e")
+		)
+		(instances
+			(project "openvcu"
+				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2/0e0f3168-a2d1-4cc4-babd-f9e64b91c1ea/6cc00cbf-89c2-4b1d-8fa8-5e3131255cb0"
+					(reference "U13")
 					(unit 1)
 				)
 			)
