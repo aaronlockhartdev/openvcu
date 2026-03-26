@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bfe98626-86e1-487f-823e-4e6b734b65ce")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.66 41.91)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d59031d6-946f-4d07-bf8d-3f788fcaff5c")
+		(property "Sheetname" "Power Output"
+			(at 73.66 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_output.kicad_sch"
+			(at 73.66 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "openvcu"
+				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2/07c38352-4b69-435a-9fdb-8adeed3b6058"
+					(page "6")
+				)
+			)
+		)
+	)
+)

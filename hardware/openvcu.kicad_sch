@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 86.36 90.17)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07c38352-4b69-435a-9fdb-8adeed3b6058")
+		(property "Sheetname" "Power Outputs"
+			(at 86.36 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_outputs.kicad_sch"
+			(at 86.36 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "openvcu"
+				(path "/474f8017-6a20-4212-a4d1-1038f3d193b2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 106.045 37.465)
 		(size 25.4 27.94)
 		(exclude_from_sim no)

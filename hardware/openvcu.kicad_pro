@@ -460,6 +460,14 @@
     [
       "6cc00cbf-89c2-4b1d-8fa8-5e3131255cb0",
       "Ignition Driver 1"
+    ],
+    [
+      "07c38352-4b69-435a-9fdb-8adeed3b6058",
+      "Power Outputs"
+    ],
+    [
+      "d59031d6-946f-4d07-bf8d-3f788fcaff5c",
+      "Power Output"
     ]
   ],
   "text_variables": {},
